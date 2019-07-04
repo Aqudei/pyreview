@@ -61,7 +61,7 @@ if os.path.isfile(TrackerDoc):
     logger.info('Found TrackerDoc')
 else:
     # Try creating it
-    # CHANGED
+    ## CHANGED
     logger.info("{} was not found. Trying to create it.".format(TrackerDoc))
     with open(TrackerDoc, 'w+t') as tfp:
         tfp.write("[]")
@@ -94,7 +94,7 @@ for i in Files:
         FileNameNew = FileName + TimeNow
 
         try:
-            # CHANGED
+            ## CHANGED
             shutil.move(os.path.join(FileDir, i),
                         ArchiveDir + FileNameNew + FileExt)
         except Exception as e:
@@ -107,7 +107,7 @@ for i in Files:
                             'ArchiveDate': str(TimeToday), 'ExpiryDate': str(TimeDelayDate)}
 
             with open(TrackerDoc, 'rt') as ReadFile:
-                # CHANGED
+                ## CHANGED
                 ListEntries = json.loads(ReadFile.read())
                 ListEntries.append(NewListEntry)
                 with open(TrackerDoc, 'w+t') as WriteFile:
