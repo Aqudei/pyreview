@@ -1,0 +1,8 @@
+{
+	"FilesToArchive": ["file1.txt", "file2.txt"],
+	"FileDir": "C:\\Users\\user\\Desktop\\Upwork\\pyreview\\test",
+	"ArchiveDir": "C:\\Users\\user\\Desktop\\Upwork\\pyreview\\test\\Arch\\",
+	"LogDoc": "C:\\Users\\user\\Desktop\\Upwork\\pyreview\\test\\loggie.log",
+	"TrackerDoc": "C:\\Users\\user\\Desktop\\Upwork\\pyreview\\test\\Tracker.txt",
+	"ArchiveDays": "15"
+}
