@@ -2,3 +2,4 @@ __pycache__/
 test/
 *.sublime-project
 *.sublime-workspace
+*.pyc
